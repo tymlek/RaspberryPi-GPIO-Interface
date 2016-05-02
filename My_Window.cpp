@@ -54,7 +54,7 @@ My_Window::My_Window()
 			exit (1);
 		}
 		
-		// Attache:
+		// Attach:
 		{grpState = new Fl_Group(10,20,160,600,"State");
 			
 			lbl_wPi_0 = new Fl_Output(wPi_lbl_x,wPi_lbl_y + (wPi_lbl_h * 0),
