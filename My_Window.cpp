@@ -49,23 +49,6 @@ My_Window::My_Window()
 	{
 		try {
 			wiringPiSetup();
-			
-			/*for (uint8_t i = 0; i <= 16; ++i) {
-				pinMode(i,INPUT);
-			}
-			
-			for (uint8_t i = 21; i <= 23; ++i) {
-				pinMode(i,INPUT);
-			}
-			
-			for (uint8_t i = 26; i <= 27; ++i) {
-				pinMode(i,INPUT);
-			}
-			
-			for (uint8_t i = 30; i <= 31; ++i) {
-				pinMode(i,INPUT);
-			}*/
-			
 		} catch (std::exception& e) {
 			std::cerr << e.what();
 			exit (1);
